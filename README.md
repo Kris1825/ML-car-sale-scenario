@@ -1,6 +1,10 @@
 # Car Purchase Prediction using ANN
+## Visualisation 
 
-## 📌 Project Overview
+![Training Loss Plot](plot.png)
+
+
+##  Project Overview
 This project predicts the **Car Purchase Amount** customers are willing to pay, based on demographic and financial attributes such as:
 - Age
 - Annual Salary
@@ -10,7 +14,7 @@ This project predicts the **Car Purchase Amount** customers are willing to pay, 
 
 The dataset is provided in CSV format.
 
-## 🧠 Approach
+##  Approach
 - Data cleaning & preprocessing
 - Exploratory Data Analysis (EDA) with matplotlib & seaborn
 - Feature encoding (for categorical variables)
@@ -18,7 +22,7 @@ The dataset is provided in CSV format.
 - Building an Artificial Neural Network (ANN) with Keras/TensorFlow
 - Visualized training and validation loss across epochs
 
-## 🚀 Results
+##  Results
 The model successfully learned patterns in the dataset and produced reasonable predictions for purchase amounts.
 Training and validation loss decreased over time, showing proper convergence.
 
@@ -31,7 +35,7 @@ Scikit-learn
 Matplotlib
 Seaborn
 
-## ▶️ How to Run
+## How to Run
 
 pip install -r requirements.txt
 
