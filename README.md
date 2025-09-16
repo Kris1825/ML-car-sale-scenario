@@ -16,20 +16,22 @@ The dataset is provided in CSV format.
 - Feature encoding (for categorical variables)
 - Normalization of numerical features
 - Building an Artificial Neural Network (ANN) with Keras/TensorFlow
-- Model evaluation (MSE, RMSE, R²)
+- Visualized training and validation loss across epochs
 
 ## 🚀 Results
-- Final model achieved **R² = 0.XX**
-- Visualization of predictions vs actual values
+The model successfully learned patterns in the dataset and produced reasonable predictions for purchase amounts.
+Training and validation loss decreased over time, showing proper convergence.
 
-## 📂 Project Structure
-car-purchase-prediction/
-├── data/ # dataset (sample only)
-├── notebook/ # Jupyter Notebook with code
-├── requirements.txt # dependencies
-└── README.md # project documentation
+## Requirements
+Python 3.x
+TensorFlow / Keras
+NumPy
+Pandas
+Scikit-learn
+Matplotlib
+Seaborn
 
 ## ▶️ How to Run
 
-Install dependencies
-Run Jupyter Notebook
+pip install -r requirements.txt
+
